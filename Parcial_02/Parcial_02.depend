@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1498745385 source:c:\users\carlaeliana\desktop\parcial_02\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1498165018 c:\users\carlaeliana\desktop\parcial_02\arraylist.h
+
+1498747792 c:\users\carlaeliana\desktop\parcial_02\persona.h
+
+1498747131 source:c:\users\carlaeliana\desktop\parcial_02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+	"Persona.h"
+	"parser.h"
+
+1498746181 source:c:\users\carlaeliana\desktop\parcial_02\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Persona.h"
+
+1497837886 source:c:\users\carlaeliana\desktop\parcial_02\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1497837886 c:\users\carlaeliana\desktop\parcial_02\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1498746181 c:\users\carlaeliana\desktop\parcial_02\parser.h
+
+1498748929 source:c:\users\carlaeliana\desktop\parcial_02\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Persona.h"
+
