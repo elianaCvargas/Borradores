@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1499825258 source:c:\users\carlaeliana\desktop\final_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499487626 c:\users\carlaeliana\desktop\final_practica\arraylist.h
+
+1499903475 source:c:\users\carlaeliana\desktop\final_practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Usuario.h"
+	"Temas.h"
+	"Parser.h"
+	"Validaciones.h"
+	"Controller.h"
+
+1499903452 c:\users\carlaeliana\desktop\final_practica\usuario.h
+
+1499875760 c:\users\carlaeliana\desktop\final_practica\parser.h
+
+1499875724 c:\users\carlaeliana\desktop\final_practica\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1499816591 source:c:\users\carlaeliana\desktop\final_practica\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Usuario.h"
+	"Temas.h"
+
+1499887646 source:c:\users\carlaeliana\desktop\final_practica\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1499902991 source:c:\users\carlaeliana\desktop\final_practica\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Usuario.h"
+	"Parser.h"
+
+1499826909 source:c:\users\carlaeliana\desktop\final_practica\temas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Temas.h"
+	"Parser.h"
+
+1499820323 c:\users\carlaeliana\desktop\final_practica\temas.h
+
+1499890907 source:c:\users\carlaeliana\desktop\final_practica\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Usuario.h"
+	"Temas.h"
+	"Parser.h"
+	"Validaciones.h"
+
+1499886199 c:\users\carlaeliana\desktop\final_practica\controller.h
+
