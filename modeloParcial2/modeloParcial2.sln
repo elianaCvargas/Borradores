@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modeloParcial2", "modeloParcial2\modeloParcial2.csproj", "{BA66C837-C31F-4834-811E-1707B9876D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades\Entidades.csproj", "{CC4979B9-B480-43B9-A2F9-D02707EB0AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "IInterfaces\IInterfaces\Interfaces.csproj", "{774C069D-C512-4C54-A538-959DDFF39931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA66C837-C31F-4834-811E-1707B9876D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA66C837-C31F-4834-811E-1707B9876D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA66C837-C31F-4834-811E-1707B9876D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA66C837-C31F-4834-811E-1707B9876D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4979B9-B480-43B9-A2F9-D02707EB0AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4979B9-B480-43B9-A2F9-D02707EB0AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4979B9-B480-43B9-A2F9-D02707EB0AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4979B9-B480-43B9-A2F9-D02707EB0AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774C069D-C512-4C54-A538-959DDFF39931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774C069D-C512-4C54-A538-959DDFF39931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774C069D-C512-4C54-A538-959DDFF39931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774C069D-C512-4C54-A538-959DDFF39931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
