@@ -1,1 +1,2 @@
 C:\Users\CarlaEliana\Desktop\modeloParcial2\modeloParcial2\bin\Debug\modeloParcial2.exe.config
+C:\Users\alumno\Desktop\Borradores-master\modeloParcial2\modeloParcial2\bin\Debug\modeloParcial2.exe.config

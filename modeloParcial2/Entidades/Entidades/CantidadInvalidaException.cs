@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class CantidadInvalidaException
+    public class CantidadInvalidaException: Exception
     {
+        public  CantidadInvalidaException()
+        {
+           // Console.WriteLine("Cantidad Invalida");
+        }
     }
 }

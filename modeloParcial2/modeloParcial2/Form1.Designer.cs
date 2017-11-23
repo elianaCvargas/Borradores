@@ -34,9 +34,10 @@
             // 
             // btnLanzar
             // 
-            this.btnLanzar.Location = new System.Drawing.Point(12, 12);
+            this.btnLanzar.Location = new System.Drawing.Point(9, 10);
+            this.btnLanzar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLanzar.Name = "btnLanzar";
-            this.btnLanzar.Size = new System.Drawing.Size(671, 313);
+            this.btnLanzar.Size = new System.Drawing.Size(503, 254);
             this.btnLanzar.TabIndex = 0;
             this.btnLanzar.Text = "Lanzar";
             this.btnLanzar.UseVisualStyleBackColor = true;
@@ -44,22 +45,25 @@
             // 
             // btnBitacora
             // 
-            this.btnBitacora.Location = new System.Drawing.Point(12, 331);
+            this.btnBitacora.Location = new System.Drawing.Point(9, 269);
+            this.btnBitacora.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBitacora.Name = "btnBitacora";
-            this.btnBitacora.Size = new System.Drawing.Size(671, 176);
+            this.btnBitacora.Size = new System.Drawing.Size(503, 143);
             this.btnBitacora.TabIndex = 1;
             this.btnBitacora.Text = "Bitacora";
             this.btnBitacora.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(695, 519);
+            this.ClientSize = new System.Drawing.Size(521, 422);
             this.Controls.Add(this.btnBitacora);
             this.Controls.Add(this.btnLanzar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
