@@ -1,0 +1,149 @@
+﻿
+<div ng-app="reclamosApp" class="nameclase" >
+	<div ng-controller="reclamosController" >
+		<ng-form name ="angularform" >
+			<base href="">
+	    	<!--DROPDOWN PAIS-->
+		    <uif-label>Pais:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Pais" ng-model ="paisSelect">
+				<uif-dropdown-option value="{{pais.Title}}" ng-repeat="pais in Paises" title="{{pais.Title}}">{{pais.Title}}</uif-dropdown-option>
+		    </uif-dropdown>		    		    
+		    <!--DROPDOWN DISTRITO-->	
+		    <uif-label>Distrito:</uif-label>
+			<uif-dropdown  class ="ddlDistrito" ng-model="reclamosRequest.Distrito" name="distrito" required>
+				<uif-dropdown-option class ="ddlDistrito" value="{{distrito.Title}}" ng-repeat="distrito in Distritos" title="{{distrito.Title}}">{{value}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.distrito.$touched && !angularform.distrito.$valid">Debe seleccionar un distrito distrito</span>
+			</div>	
+			<!--CONTRATO ASOCIADO-->				
+		   	<uif-textfield  uif-label="Contrato Asociado" ng-model="reclamosRequest.Title" name="contratoAsociado" required></uif-textfield>
+			<div class="alert-danger" >
+				<span ng-show="angularform.contratoAsociado.$touched && !angularform.contratoAsociado.$valid">Debe completar el contrato asociado</span>
+			</div>				
+			<!--FECHA PICKER-->							   	
+		   <uif-label>Fecha:</uif-label>
+		   	<div>
+		    	<uif-datepicker ng-model="reclamosRequest.Fecha" name="fecha" required placeholder="Seleccione una fecha"/> 
+		   	</div>
+		   	<div class="alert-danger" >
+				<span ng-show="angularform.fecha.$touched && !angularform.fecha.$valid">Debe elegir una fecha</span>
+			</div>		   				
+			<!--DROPDOWN CLIENTE-->	
+		    <uif-label>Cliente:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Cliente" name="cliente" required>
+				<uif-dropdown-option value="{{cliente.Title}}" ng-repeat="cliente in Clientes" title="{{cliente.Title}}">{{cliente.Title}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.cliente.$touched && !angularform.cliente.$valid">Debe seleccionar un cliente</span>
+			</div>			
+		   	<!--MOTIVO RECLAMO-->			
+		   	<uif-textfield  uif-label="Motivo de la OOSS/Reclamo del cliente" ng-model="reclamosRequest.Numero_x0020_de_x0020_la_x0020_O" name="motivoReclamo" required></uif-textfield>
+			<div class="text-muted">
+				<span>Frase que resume la solicitud del cliente</span>
+			</div>
+			<div class="alert-danger" >
+				<span ng-show="angularform.motivoReclamo.$touched && !angularform.motivoReclamo.$valid">Debe completar el motivo de reclamo</span>
+			</div>			
+			<!--DROPDOWN TEMARECLAMO-->	
+		    <uif-label>Tema de la OOSS:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.campo1" name="temaReclamo" required>
+				<uif-dropdown-option value="{{value}}" ng-repeat="(key, value) in Temas" title="{{value}}">{{value}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.temaReclamo.$touched && !angularform.temaReclamo.$valid">Debe seleccionar un tema</span>	
+			</div>
+			<!--DROPDOWN TIPOSERVICIO-->	
+		    <uif-label>Tipo de Servicio:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Tipo_x0020_de_x0020_Servicio" name="tipoServicio" required>
+				<uif-dropdown-option value="{{value}}" ng-repeat="(key, value) in TiposServicios" title="{{value}}">{{value}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.tipoServicio.$touched && !angularform.tipoServicio.$valid">Debe seleccionar un tipo de servicio</span>	
+			</div>
+			<!--DROPDOWN COMPAÑIA-->
+		    <uif-label>Compañía:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Compa_x00f1_ia_x003a_" name="compania" required>
+				<uif-dropdown-option value="{{compania.Title}}" ng-repeat="compania in Companias" title="{{compania.Title}}">{{compania.Title}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.compania.$touched && !angularform.compania.$valid">Debe seleccionar una compañía</span>	
+			</div>
+			<!--DROPDOWN NUMERO-EQUIPO-->	
+		    <uif-label>Nro.de Equipo:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Equipo" name="equipo" required>
+				<uif-dropdown-option value="{{value}}" ng-repeat="(key, value) in Equipos" title="{{value}}">{{value}}</uif-dropdown-option>
+		    </uif-dropdown>
+			<div  class="alert-danger" >
+				<span ng-show="angularform.equipo.$touched && !angularform.equipo.$valid">Debe seleccionar un equipo</span>	
+			</div>
+			<!--FECHA VENCIMIENTO-->
+			<uif-label>Fecha de vencimiento:</uif-label>
+		   	<div>
+		    	<uif-datepicker ng-model="reclamosRequest.Fecha_x0020_de_x0020_Vencimiento"  placeholder="Seleccione una fecha"/> 
+		   	</div>		   		
+			<!--DROPDOWN CODIGOsAI-->	
+		    <uif-label>Estado de la OOSS:</uif-label>
+			<uif-dropdown ng-model="reclamosRequest.Estado_x0020_de_x0020_la_x0020_O" name="estadoReclamo" required>
+				<uif-dropdown-option value="{{value}}" ng-repeat="(key, value) in Estados" title="{{value}}">{{value}}</uif-dropdown-option>
+		    </uif-dropdown>		   
+			<div  class="alert-danger" >
+				<span ng-show="angularform.estadoReclamo.$touched && !angularform.estadoReclamo.$valid">Debe seleccionar el estado del reclamo</span>	
+			</div>
+			<!--FECHA RESPUESTA-->
+			<uif-label>Fecha de respuesta:</uif-label>
+		   	<div>
+		    	<uif-datepicker ng-model="reclamosRequest.Fecha_x0020_Real_x0020_de_x0020_"  placeholder="Seleccione una fecha"/> 
+		   	</div>
+			<!--CODIGO INTERNO SAI-->
+			<div>				
+		   		<uif-textfield  uif-label="Código Interno SAI:" ng-model="reclamosRequest.CodigoInternoSAI" name="codigoSAI"></uif-textfield>	
+		   	</div>					
+			<!-- Peoplepicker component -->
+			<div>
+	        <uif-label>Responsable de Análisis/Accion:</uif-label>
+	        <uif-people-picker uif-people="getUserResponsable" ng-model="reclamosRequest.Responsable_x0020_de_x0020_An_x0" uif-type="compact" uif-selected-person-click="personClicked" data-ng-click="getSelectedUserId(reclamosRequest)" uif-search-delay="300" placeholder="Especifique un nombre o una dirección de correo electrónico">
+	         	<uif-people-search-more>
+	           		<uif-secondary-text>Showing {{asyncUserResults.length}} results</uif-secondary-text>
+	           		<uif-primary-text uif-search-for-text="Mostrando los primeros 50 resultados: ">Busque un usuario responsable</uif-primary-text>
+	         	</uif-people-search-more>
+	       	</uif-people-picker>
+	     	</div>		
+		   	<br>
+		   	
+		    <div class="button">
+		    	<uif-button type="button" ng-click="submitRequest(reclamosRequest, angularform.$valid)" uif-type="primary" >Guardar</uif-button>
+		    	<uif-button type="button" data-ng-click="cancel()" uif-type="primary" class="btnCancel">Cancel</uif-button>		    	    						  
+		    </div>   
+		 </ng-form>
+	 </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="http://vlaba-sh01/SiteAssets/SAI/js/jquery-3.1.0.min.js"></script>
+ <script src="http://vlaba-sh01/SiteAssets/SAI/js/picker.js"></script>
+ <script src="http://vlaba-sh01/SiteAssets/SAI/js/picker.date.js"></script>
+ <link rel="stylesheet" href="http://vlaba-sh01/SiteAssets/SAI/js/fabric.min.css">
+ <link rel="stylesheet" href="http://vlaba-sh01/SiteAssets/SAI/js/fabric.components.min.css">  
+  <script src="http://vlaba-sh01/SiteAssets/SAI/js/angular.min.js"></script>
+  <script src="http://vlaba-sh01/SiteAssets/SAI/js/ngOfficeUiFabric.min.js"></script>
+  <script src="http://vlaba-sh01/SiteAssets/SAI/Reclamos/FormularioReclamosController.js"></script>
+  <script src="http://vlaba-sh01/SiteAssets/SAI/Reclamos/FormularioReclamosService.js"></script>
+  <script src="http://vlaba-sh01/SiteAssets/SAI/Reclamos/FormularioReclamosApp.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+	.nameclase{
+	margin-top:30px;
+	}
+	.ddlDistrito{
+	color:#000000;	
+	}
+	.button{
+	margin-left:450px;
+	
+	}
+
+	
+}
+</style>
+
