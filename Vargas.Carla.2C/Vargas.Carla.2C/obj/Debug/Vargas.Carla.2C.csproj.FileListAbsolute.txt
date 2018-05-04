@@ -1,0 +1,6 @@
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.exe.config
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.exe
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.pdb
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.exe
+D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.pdb
