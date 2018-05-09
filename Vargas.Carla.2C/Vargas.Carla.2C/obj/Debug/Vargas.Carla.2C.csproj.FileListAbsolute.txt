@@ -4,3 +4,13 @@ D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.pdb
 D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.csprojResolveAssemblyReference.cache
 D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.exe
 D:\VisualStudio\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.exe.config
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.exe
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\obj\Debug\Vargas.Carla.2C.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.exe
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Vargas.Carla.2C.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\EntidadesFinancieras_.dll
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\EntidadesFinancieras_.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Vargas.Carla.2C\bin\Debug\Enumerados.pdb

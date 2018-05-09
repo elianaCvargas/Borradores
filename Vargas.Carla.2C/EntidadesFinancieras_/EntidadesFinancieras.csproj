@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Financiera.cs" />
     <Compile Include="Prestamo.cs" />
     <Compile Include="PrestamoDolar.cs" />
     <Compile Include="PrestamoPesos.cs" />
@@ -48,10 +49,6 @@
     <ProjectReference Include="..\Enumerados\Enumerados.csproj">
       <Project>{4532254e-bd48-40af-a027-9630a84a4574}</Project>
       <Name>Enumerados</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Vargas.Carla.2C\Vargas.Carla.2C.csproj">
-      <Project>{06803045-ebf7-4103-a3ea-e9485bd1a0d7}</Project>
-      <Name>Vargas.Carla.2C</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

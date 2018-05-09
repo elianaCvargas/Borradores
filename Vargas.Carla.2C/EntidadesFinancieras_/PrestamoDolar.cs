@@ -12,20 +12,20 @@ namespace PrestamosPersonales
 
         private PeriodicidadDePagos periodicidad;
 
-        PrestamoDolar(float monto, DateTime vencimiento, PeriodicidadDePagos periodicidad)
+        public PrestamoDolar(float monto, DateTime vencimiento, PeriodicidadDePagos periodicidad)
              :base(monto, vencimiento)
         {
             this.periodicidad = periodicidad;
         }
 
-        PrestamoDolar(Prestamo prestamo, PeriodicidadDePagos periodicidad)
+        public PrestamoDolar(Prestamo prestamo, PeriodicidadDePagos periodicidad)
             :this(prestamo.Monto, prestamo.Vencimiento,periodicidad)
         { 
             
         }
 
 
-        public float Interes { get; }
+        public float Interes { get { return this.CalcularInteres();} }
 
         public float CalcularInteres() 
         {
@@ -56,15 +56,17 @@ namespace PrestamosPersonales
             System.TimeSpan diferencia = nuevoVencimiento.Subtract(vencimientoAcual);
             int interesAgregadoPorDia = (int)diferencia.TotalDays;
             float nuevoInteres = interesAgregadoPorDia *(float) 2.5;
-            base.Monto = 
-
-
-
+            float MontoConInteres = (nuevoInteres * base.Monto) / 100;
+            //Sumar el interes al  monto (FALTA)
+            base.Monto = base.Monto + (MontoConInteres); 
 
         }
 
         public string Mostrar()
-        { }
+        {
+            base.Mostrar();
+            return String.Format("\n Prestamo periodicidad: {1}", this.periodicidad.ToString());
+        }
 
 
     }

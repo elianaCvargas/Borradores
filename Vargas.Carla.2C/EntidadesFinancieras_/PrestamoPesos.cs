@@ -11,18 +11,23 @@ namespace PrestamosPersonales
     {
         private float porcentajeIntereses;
 
-        PrestamoPesos(float monto, DateTime vencimiento, float porcentajeInteres)
+        public PrestamoPesos(float monto, DateTime vencimiento, float porcentajeInteres)
             :base(monto, vencimiento)
         {
             this.porcentajeIntereses = porcentajeInteres;
         }
 
-        PrestamoPesos(Prestamo prestamo, float porcentajeInteres)
+        public PrestamoPesos(Prestamo prestamo, float porcentajeInteres)
             :this(prestamo.Monto, prestamo.Vencimiento, porcentajeInteres)
         { }
 
 
-        public float Interes { get; }
+        public float Interes { 
+            get 
+            { 
+                return this.CalcularInteres(); 
+            } 
+        }
         //  
         public float CalcularInteres() 
         {
@@ -32,20 +37,23 @@ namespace PrestamosPersonales
             
         }
 
-        public void ExtenderPlazo(DateTime nuevoVencimiento)
+        public override void ExtenderPlazo(DateTime nuevoVencimiento)
         {
             DateTime vencimientoAcual = base.Vencimiento ;
            // DateTime fechaActual = DateTime.Now;
             System.TimeSpan diferencia = nuevoVencimiento.Subtract(vencimientoAcual);
             int interesAgregadoPorDia = (int)diferencia.TotalDays;
             float nuevoInteres = interesAgregadoPorDia * (float)0.25;
+            float MontoConInteres = (nuevoInteres * base.Monto) / 100;
             //Sumar el interes al  monto (FALTA)
-            base.Monto = base.Monto + (nuevoInteres); 
+            base.Monto = base.Monto + (MontoConInteres); 
 
         }
 
-        public string Mostrar()
-        { }
+        public override string Mostrar()
+        {
+            return String.Format("Base data: {0}\n Prestamo periodicidad: {1}", base.Mostrar(), this.porcentajeIntereses.ToString());
+        }
 
 
 

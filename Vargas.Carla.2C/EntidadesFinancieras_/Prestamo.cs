@@ -33,14 +33,15 @@ namespace PresamosPersonales
         }
 
 
-        abstract void ExtenderPlazo(DateTime vencimiento);
-        public virtual void Mostrar()
+        public abstract void ExtenderPlazo(DateTime vencimiento);
+        public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Monto: ");
             sb.Append(monto.ToString());
             sb.Append("Vencimiento: ");
             sb.Append(vencimiento.ToString());
+            return sb.ToString();
         }
 
         public static int OrdenarPorFecha(Prestamo p1, Prestamo p2)

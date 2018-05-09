@@ -3,3 +3,8 @@ D:\VisualStudio\Vargas.Carla.2C\Enumerados\bin\Debug\Enumerados.pdb
 D:\VisualStudio\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.csprojResolveAssemblyReference.cache
 D:\VisualStudio\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.dll
 D:\VisualStudio\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Enumerados\bin\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Enumerados\bin\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\Vargas.Carla.2C\Enumerados\obj\Debug\Enumerados.csprojResolveAssemblyReference.cache
