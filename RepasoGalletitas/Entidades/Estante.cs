@@ -27,38 +27,43 @@ namespace Entidades
         }
         public float GetValorEstante(ETipoProducto tipoProducto) 
         {
-            float valorGalletita = 0;
-            float valorGaseosa = 0;
-            float valorHarina = 0;
-            float valorJugo = 0;
-            float valorTodos = 0; 
+
+            float valorTodos = 0;
             foreach (Producto element in listaProductos)
             {
-                //switch (tipoProducto)
-                //{
-                //    case ETipoProducto.Galletita:
+                switch (tipoProducto)
+                {
+                    case ETipoProducto.Galletita:
+                        if (element is Galletita)
+                        { 
+                            valorTodos += element.Precio;
+                        }                        
+                        break;
+                    case ETipoProducto.Gaseosa:
+                        if (element is Gaseosa)
+                        {
+                            valorTodos += element.Precio;
+                        } 
+                        break;
+                    case ETipoProducto.Harina:
+                        if (element is Harina)
+                        {
+                            valorTodos += element.Precio;
+                        } 
+                        break;
+                    case ETipoProducto.Jugo:
+                        if (element is Jugo)
+                        {
+                            valorTodos += element.Precio;
+                        } 
+                        break;
+                    default:
+                        return valorTodos += element.Precio;
+                        break;
+                }
 
-                //        break;
-                //}
-                if (element.Equals(ETipoProducto.Galletita))
-                {
-                    return valorGalletita += element.Precio;
-                }
-                if (element.Equals(ETipoProducto.Gaseosa))
-                {
-                    return valorGaseosa += element.Precio;
-                }
-                if (element.Equals(ETipoProducto.Harina))
-                {
-                    return valorHarina += element.Precio;
-                }
-                if (element.Equals(ETipoProducto.Jugo))
-                {
-                    return valorJugo += element.Precio;
-                }
-               return   valorTodos += element.Precio + valorGalletita + valorGaseosa + valorJugo;
             }
-            return -1;
+            return valorTodos;
         }
 
 

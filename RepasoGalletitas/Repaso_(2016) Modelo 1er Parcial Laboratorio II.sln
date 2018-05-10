@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerados", "Enumerados\En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEstante", "TestEstante\TestEstante.csproj", "{9DC175EE-6CA5-43B3-9158-5D2CF92A2618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormEstante", "FormEstante\FormEstante.csproj", "{1BE814E2-EF1D-4590-8152-5E00F90E1303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{9DC175EE-6CA5-43B3-9158-5D2CF92A2618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DC175EE-6CA5-43B3-9158-5D2CF92A2618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DC175EE-6CA5-43B3-9158-5D2CF92A2618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE814E2-EF1D-4590-8152-5E00F90E1303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE814E2-EF1D-4590-8152-5E00F90E1303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE814E2-EF1D-4590-8152-5E00F90E1303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE814E2-EF1D-4590-8152-5E00F90E1303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
