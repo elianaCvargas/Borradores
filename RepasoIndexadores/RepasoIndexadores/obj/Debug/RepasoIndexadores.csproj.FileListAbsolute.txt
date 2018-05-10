@@ -1,0 +1,5 @@
+D:\VisualStudio Proyectos\RepasoIndexadores\RepasoIndexadores\bin\Debug\RepasoIndexadores.exe.config
+D:\VisualStudio Proyectos\RepasoIndexadores\RepasoIndexadores\bin\Debug\RepasoIndexadores.exe
+D:\VisualStudio Proyectos\RepasoIndexadores\RepasoIndexadores\bin\Debug\RepasoIndexadores.pdb
+D:\VisualStudio Proyectos\RepasoIndexadores\RepasoIndexadores\obj\Debug\RepasoIndexadores.exe
+D:\VisualStudio Proyectos\RepasoIndexadores\RepasoIndexadores\obj\Debug\RepasoIndexadores.pdb

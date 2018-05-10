@@ -1,0 +1,7 @@
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\bin\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\bin\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio Proyectos\RepasoIndexadores\Entidades\obj\Debug\Entidades.pdb
