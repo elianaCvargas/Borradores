@@ -1,0 +1,9 @@
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\bin\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.exe.config
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\bin\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.exe
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\bin\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.pdb
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\obj\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\obj\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.exe
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Repaso_(2016) Modelo 1er Parcial Laboratorio II\obj\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\Repaso_(2016) Modelo 1er Parcial Laboratorio II\bin\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.exe.config
+D:\VisualStudio Proyectos\RepasoGalletitas\Repaso_(2016) Modelo 1er Parcial Laboratorio II\obj\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.exe
+D:\VisualStudio Proyectos\RepasoGalletitas\Repaso_(2016) Modelo 1er Parcial Laboratorio II\obj\Debug\Repaso_(2016) Modelo 1er Parcial Laboratorio II.pdb

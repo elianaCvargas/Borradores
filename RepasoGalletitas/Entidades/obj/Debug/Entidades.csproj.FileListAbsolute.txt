@@ -1,0 +1,8 @@
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\bin\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\bin\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio Proyectos\RepasoGalletitas\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,11 @@
+D:\VisualStudio Proyectos\Repaso_(2016) Modelo 1er Parcial Laboratorio II\TestEstante\obj\Debug\TestEstante.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\obj\Debug\TestEstante.csprojResolveAssemblyReference.cache
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\TestEstante.exe.config
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\TestEstante.exe
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\TestEstante.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\Entidades.dll
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\Enumerados.dll
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\Entidades.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\bin\Debug\Enumerados.pdb
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\obj\Debug\TestEstante.exe
+D:\VisualStudio Proyectos\RepasoGalletitas\TestEstante\obj\Debug\TestEstante.pdb
