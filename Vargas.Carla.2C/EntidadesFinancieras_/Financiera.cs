@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using PrestamosPersonales;
+
 namespace EntidadFinanciera
 {
     public class Financiera
@@ -12,9 +14,9 @@ namespace EntidadFinanciera
         private List<Prestamo> listaPrestamos;
         private string razonSocial;
 
-        public Financiera()
-        { 
-        
+        private  Financiera()
+        {
+            this.listaPrestamos = new List<Prestamo>();
         }
         public Financiera(string razonSocial)
             :this()
@@ -25,12 +27,15 @@ namespace EntidadFinanciera
         public float InteresesEnDolares {
             get {
                 float interesGanado = 0;
-                foreach (Prestamo item in this.listaPrestamos)
+                if (this.listaPrestamos != null)
                 {
-                    if ( item.GetType().ToString() == TipoDePrestamo.Dolares.ToString())
+                    foreach (Prestamo item in this.listaPrestamos)
                     {
-                        interesGanado = interesGanado + item.Monto;
-                    }                   
+                        if (item is PrestamoDolar)
+                        {
+                            interesGanado = interesGanado + item.Monto;
+                        }
+                    }
                 }
                 return interesGanado;
             } 
@@ -39,13 +44,16 @@ namespace EntidadFinanciera
             get
             {
                 float interesGanado = 0;
-
-                foreach (Prestamo item in this.listaPrestamos)
+                if (listaPrestamos != null)
                 {
-                    if (item.GetType().ToString() == TipoDePrestamo.Pesos.ToString())
+                    foreach (Prestamo item in this.listaPrestamos)
                     {
-                        interesGanado = interesGanado + item.Monto;
+                        if (item is PrestamoDolar)
+                        {
+                            interesGanado = interesGanado + item.Monto;
+                        }
                     }
+                    
                 }
                 return interesGanado;
             } 
@@ -55,11 +63,13 @@ namespace EntidadFinanciera
             get
             {
                 float interesGanado = 0;
-                foreach (Prestamo item in this.listaPrestamos)
+                if (this.listaPrestamos != null)
                 {
-                    if (item.GetType().ToString() == TipoDePrestamo.Todos.ToString())
+                    foreach (Prestamo item in this.listaPrestamos)
                     {
-                        interesGanado = interesGanado + InteresesEnDolares + InteresesEnPesos;
+                        
+                            interesGanado = interesGanado + InteresesEnDolares + InteresesEnPesos;
+                        
                     }
                 }
                 return interesGanado;
@@ -88,17 +98,20 @@ namespace EntidadFinanciera
             StringBuilder sb = new StringBuilder();
             sb.Append("Razón Social: ");
             sb.Append(financiera.razonSocial.ToString());
-            sb.Append("Intereses en Pesos: ");
+            sb.Append("\nIntereses en Pesos: ");
             sb.Append(financiera.InteresesEnPesos.ToString());
-            sb.Append("Intereses en Dólares: ");
+            sb.Append("\nIntereses en Dólares: ");
             sb.Append(financiera.InteresesEnDolares.ToString());
-            sb.Append("Intereses Totales: ");
+            sb.Append("\nIntereses Totales: ");
             sb.Append(financiera.InteresesTotales.ToString());
-            sb.Append("Productos: ");
+            sb.Append("\nProductos: ");
             financiera.OrdenarPrestamos();
-            foreach (Prestamo item in financiera.listaPrestamos)
+            if (financiera.listaPrestamos != null)
             {
-                sb.Append(item.Mostrar());               
+                foreach (Prestamo item in financiera.listaPrestamos)
+                {
+                    sb.Append(item.Mostrar());
+                }
             }
             return sb.ToString();
 
@@ -144,7 +157,10 @@ namespace EntidadFinanciera
         public void OrdenarPrestamos()
         {
             Comparison<Prestamo> prestamoComparer = new Comparison<Prestamo>(compareDate);
-            listaPrestamos.Sort(compareDate);
+            if (listaPrestamos != null)
+            {
+                listaPrestamos.Sort(compareDate);
+            }
         }
 
         public int compareDate(Prestamo p1, Prestamo p2)

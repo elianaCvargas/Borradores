@@ -14,7 +14,7 @@ namespace Vargas.Carla._2C
     {
         static void Main(string[] args)
         {
-            Financiera financiera = new Financiera("Mi Financiera");
+            Financiera financiera = new Financiera("Mi Financiera\n");
             PrestamoDolar pd1 = new PrestamoDolar(1500, new DateTime(2017, 11, 01),PeriodicidadDePagos.Mensual);
             PrestamoDolar pd2 = new PrestamoDolar(2000, new DateTime(2017, 12, 05),PeriodicidadDePagos.Bimestral);
             PrestamoDolar pd3 = new PrestamoDolar(2500, new DateTime(2018, 01, 01),PeriodicidadDePagos.Trimestral);

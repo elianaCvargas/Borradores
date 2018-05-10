@@ -17,7 +17,10 @@ namespace PresamosPersonales
             this.vencimiento = vencimiento;
         }
         //Preguntar si se puede comparar fechas de esta forma
-        public float Monto { get; set; }
+        public float Monto {
+            get { return this.monto; }
+           
+        }
         public DateTime Vencimiento
         {
             get { return this.vencimiento; }

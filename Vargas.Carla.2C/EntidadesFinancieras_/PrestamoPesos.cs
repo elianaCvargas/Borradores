@@ -45,8 +45,8 @@ namespace PrestamosPersonales
             int interesAgregadoPorDia = (int)diferencia.TotalDays;
             float nuevoInteres = interesAgregadoPorDia * (float)0.25;
             float MontoConInteres = (nuevoInteres * base.Monto) / 100;
-            //Sumar el interes al  monto (FALTA)
-            base.Monto = base.Monto + (MontoConInteres); 
+            float monto = base.Monto;
+            monto = monto + (MontoConInteres); 
 
         }
 

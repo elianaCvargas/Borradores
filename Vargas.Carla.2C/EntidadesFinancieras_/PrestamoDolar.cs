@@ -35,16 +35,12 @@ namespace PrestamosPersonales
             {
                 interes = (25 * monto) / 100;
                 return interes + monto;
-            }
-
-            //else
-            //{
+            }           
                 if (periodicidad == PeriodicidadDePagos.Bimestral)
                 {
                     interes = (35 * monto) / 100;
                     return interes + monto;
                 }
-            //}
             interes = (40 * monto) / 100;
             return monto + interes;                                     
         }
@@ -58,7 +54,8 @@ namespace PrestamosPersonales
             float nuevoInteres = interesAgregadoPorDia *(float) 2.5;
             float MontoConInteres = (nuevoInteres * base.Monto) / 100;
             //Sumar el interes al  monto (FALTA)
-            base.Monto = base.Monto + (MontoConInteres); 
+            float monto = base.Monto;
+             monto= monto + (MontoConInteres); 
 
         }
 
