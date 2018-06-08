@@ -1,0 +1,8 @@
+D:\VisualStudio\35.Centralita\35.Centralita\bin\Debug\35.Centralita.exe.config
+D:\VisualStudio\35.Centralita\35.Centralita\bin\Debug\35.Centralita.exe
+D:\VisualStudio\35.Centralita\35.Centralita\bin\Debug\35.Centralita.pdb
+D:\VisualStudio\35.Centralita\35.Centralita\bin\Debug\Enumerados.dll
+D:\VisualStudio\35.Centralita\35.Centralita\bin\Debug\Enumerados.pdb
+D:\VisualStudio\35.Centralita\35.Centralita\obj\Debug\35.Centralita.csprojResolveAssemblyReference.cache
+D:\VisualStudio\35.Centralita\35.Centralita\obj\Debug\35.Centralita.exe
+D:\VisualStudio\35.Centralita\35.Centralita\obj\Debug\35.Centralita.pdb

@@ -1,0 +1,4 @@
+D:\VisualStudio\35.Centralita\Enumerados\bin\Debug\Enumerados.dll
+D:\VisualStudio\35.Centralita\Enumerados\bin\Debug\Enumerados.pdb
+D:\VisualStudio\35.Centralita\Enumerados\obj\Debug\Enumerados.dll
+D:\VisualStudio\35.Centralita\Enumerados\obj\Debug\Enumerados.pdb

@@ -1,0 +1,6 @@
+Hilos:
+
+thread  t = new ... con "parameterized.." permite que el metodo pasado tega en su firma un parametro,
+ese parametro tiene que ser de Object (ver diapositiva con este thread).
+
+para simular usar el metodo sleep.
